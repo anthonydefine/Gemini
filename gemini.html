@@ -463,24 +463,26 @@
         </div>
         <div class="col mt-4">
           <label class="text-light">Send us a quick message!</label>
-          <form>
+          <form action="https://formsubmit.co/anthonydefine@icloud.com" method="POST">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_captcha" value="false">
             <div class="row">
               <div class="col py-4">
                 <div>
-                  <input class="form-control" type="text" placeholder="First Name" required>
+                  <input class="form-control" type="text" name="First name" placeholder="First Name" required>
                 </div>
               </div>
               <div class="col py-4">
                 <div>
-                  <input class="form-control" type="text" placeholder="Last Name" required>
+                  <input class="form-control" type="text" name="Last name" placeholder="Last Name" required>
                 </div>
               </div>
             </div>         
               <div class="py-4">
-                <input type="email" class="form-control" placeholder="name@example.com" required>
+                <input type="email" class="form-control" name="email" placeholder="name@example.com" required>
               </div>
               <div class="py-4">
-                <textarea class="form-control" placeholder="message" style="height: 100px" required></textarea>
+                <textarea class="form-control" name="message" placeholder="message" style="height: 100px" required></textarea>
               </div>
             <div class="row mt-2 d-flex justify-content-center">
               <button class="btn btn-outline-warning" type="submit" style="max-width: 150px;">Submit</button>
