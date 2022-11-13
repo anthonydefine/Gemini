@@ -463,9 +463,10 @@
         </div>
         <div class="col mt-4">
           <label class="text-light">Send us a quick message!</label>
-          <form action="https://formsubmit.co/anthonydefine@icloud.com" method="POST">
+          <form action="https://formsubmit.co/anthonydefine@icloud.com" method="POST" id="messageForm">
             <input type="text" name="_honey" style="display:none">
             <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="openModal()">
             <div class="row">
               <div class="col py-4">
                 <div>
@@ -479,10 +480,10 @@
               </div>
             </div>         
               <div class="py-4">
-                <input type="email" class="form-control" name="email" placeholder="name@example.com" required>
+                <input type="email" class="form-control" name="Email" placeholder="name@example.com" required>
               </div>
               <div class="py-4">
-                <textarea class="form-control" name="message" placeholder="message" style="height: 100px" required></textarea>
+                <textarea class="form-control" name="Message" placeholder="message" style="height: 100px" required></textarea>
               </div>
             <div class="row mt-2 d-flex justify-content-center">
               <button class="btn btn-outline-warning" type="submit" style="max-width: 150px;">Submit</button>
