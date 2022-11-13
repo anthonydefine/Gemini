@@ -46,8 +46,9 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
 }
 
+// Form Submit
 
-$('#messageForm').on('submit', function(e){
-  $('#sprayModal').modal('show');
-  e.preventDefault();
-});
+document.getElementById("messageSubmit").addEventListener("click", submitModal);  
+      function submitModal() {  
+        window.location.href="#sprayModal";  
+      }
