@@ -463,7 +463,7 @@
         </div>
         <div class="col mt-4">
           <label class="text-light">Send us a quick message!</label>
-          <form action="contactform.php" method="POST" id="messageForm">
+          <form action="contactform.php" method="post" id="messageForm" class="<?= $successfulForm_class_name ?? "" ?>">
             <div class="row">
               <div class="col py-4">
                 <div>
